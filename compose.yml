@@ -9,7 +9,7 @@ services:
    networks:
      - mynetwork
  application:
-   image: appimage
+   image: sowmyareddy17/automation:app
    ports:
      - "1111:8080"
    deploy:
